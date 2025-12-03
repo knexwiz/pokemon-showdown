@@ -19,6 +19,20 @@ The column value will be ignored for repeat sections.
 
 export const Formats: import('../sim/dex-formats').FormatList = [
 
+	// FDL Formats
+	///////////////////////////////////////////////////////////////////
+	{
+        	section: "FDL Custom",
+    	},
+    	{
+        	name: "[Gen 9] Modern: Gen V",
+        	mod: 'gen5modern',
+        	gameType: 'doubles',
+        	bestOfDefault: true,
+        	ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer', 'Open Team Sheets', 'Terastal Clause'],
+    	},
+
+
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
 
