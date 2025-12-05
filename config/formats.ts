@@ -29,7 +29,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
         	mod: 'gen5modern',
         	gameType: 'doubles',
         	bestOfDefault: true,
-        	ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer', 'Open Team Sheets', 'Terastal Clause'],
+        	ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer', 'Open Team Sheets', 'Terastal Clause', 'Standard NatDex'],
     	},
 
 
