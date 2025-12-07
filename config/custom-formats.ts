@@ -9,7 +9,7 @@ export const Formats: FormatList = [
         	mod: 'gen9fdl5',
         	gameType: 'doubles',
         	bestOfDefault: true,
-        	ruleset: ['!! Adjust Level = 50', 'Terastal Clause'],
+        	ruleset: ['Adjust Level = 50', 'Terastal Clause'],
 			unbanlist: ['Mythical'],
     	},
     	{
