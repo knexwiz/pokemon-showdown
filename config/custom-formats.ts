@@ -19,5 +19,12 @@ export const Formats: FormatList = [
         	ruleset: [ 'Terastal Clause'],
 			unbanlist: ['Mythical'],
     	},
+    	{
+        	name: "[Gen 9] Modern: Gen V test12345",
+        	mod: 'gen9legendsou',
+        	bestOfDefault: true,
+        	ruleset: [ 'Terastal Clause'],
+			unbanlist: ['Mythical'],
+    	},
 
 ];
