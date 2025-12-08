@@ -1,44 +1,70 @@
 export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
-	slowbronite: {
+	buggem: {
 		inherit: true,
-		onTakeItem(item, source) {
-			if (item.megaEvolves === source.baseSpecies.name || item.megaStone === source.baseSpecies.name) return false;
-			return true;
-		},
+		isNonstandard: null,
 	},
-	greninjite: {
+	darkgem: {
 		inherit: true,
-		onTakeItem(item, source) {
-			if (item.megaEvolves === source.baseSpecies.name || item.megaStone === source.baseSpecies.name) return false;
-			return true;
-		},
+		isNonstandard: null,
 	},
-	chesnaughtite: {
+	dragongem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
-	delphoxite: {
+	electricgem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
-	mewtwonitex: {
+	fairyggem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
-	mewtwonitey: {
+	fightinggem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
-	diancite: {
+	firegem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
-	zygardite: {
+	flyinggem: {
 		inherit: true,
-		onTakeItem(item, source) {
-			if ((source.baseSpecies.baseSpecies === 'Zygarde' && source.baseAbility === 'powerconstruct') ||
-				source.baseSpecies.name === 'Zygarde-Mega') return false;
-			return true;
-		},
+		isNonstandard: null,
+	},
+	ghostgem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	grassgem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	groundgem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	icegem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	poisongem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	psychicgem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	rockgem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	steelgem: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	watergem: {
+		inherit: true,
+		isNonstandard: null,
 	},
 };
