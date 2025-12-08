@@ -5,7 +5,7 @@ export const Formats: FormatList = [
         	section: "FDL Custom",
     	},
     	{
-        	name: "[Gen 9] Modern: Gen V Two v Two",
+        	name: "[Gen 9] Modern: Gen V Two v Two fdl5",
         	mod: 'gen9fdl5',
         	gameType: 'doubles',
         	bestOfDefault: true,
@@ -13,7 +13,7 @@ export const Formats: FormatList = [
 			unbanlist: ['Mythical'],
     	},
     	{
-        	name: "[Gen 9] Modern: Gen V",
+        	name: "[Gen 9] Modern: Gen V fdl5",
         	mod: 'gen9fdl5',
         	bestOfDefault: true,
         	ruleset: [ 'Terastal Clause'],
