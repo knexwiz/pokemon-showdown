@@ -33,6 +33,10 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "NU",
 		doublesTier: "DUU",
 	},
+	samurotthisui: {
+		isNonstandard: "Future",
+		tier: "Illegal",
+	},
 	patrat: {
 		tier: "LC",
 	},
