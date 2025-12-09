@@ -22,7 +22,7 @@ export const Formats: FormatList = [
     	},
 		*/
 		{
-			name: "[Gen 9] FDL Gen V Modern",
+			name: "[Gen 9] FDL Gen V Modern fdl",
 			mod: 'gen9legendsou',
         	gameType: 'doubles',
 			bestOfDefault: true,
