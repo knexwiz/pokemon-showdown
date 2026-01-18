@@ -1,4 +1,5 @@
 export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable = {
+<<<<<<< HEAD
 	clefablemega: {
 		inherit: true,
 		abilities: { 0: "Serene Grace" },
@@ -216,4 +217,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		abilities: { 0: "Thermal Exchange" },
 	},
+=======
+>>>>>>> 861216037e745fcdd3223f99dd1c3aa9281041b1
 };

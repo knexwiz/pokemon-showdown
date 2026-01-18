@@ -19,6 +19,7 @@ The column value will be ignored for repeat sections.
 
 export const Formats: import('../sim/dex-formats').FormatList = [
 
+<<<<<<< HEAD
 	{
       section: "FDL Custom",
    },
@@ -45,6 +46,15 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 			this.add('message', 'FDL MEME CUP WIP');
 		},
 	},
+=======
+	// FDL Formats
+	///////////////////////////////////////////////////////////////////
+	{
+		section: "FDL Custom",
+	},
+
+
+>>>>>>> 861216037e745fcdd3223f99dd1c3aa9281041b1
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
 
