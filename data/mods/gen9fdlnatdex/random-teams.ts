@@ -27,9 +27,9 @@ export const ssbSets: SSBSets = {
 		signatureMove: 'Move Name',
 		evs: {stat: number}, ivs: {stat: number}, nature: 'Nature', teraType: 'Type',
 	},
-	// Species, ability, and item need to be capitalized properly ex: Ludicolo, Swift Swim, Life Orb
+	// Species, ability, and item need to be captialized properly ex: Ludicolo, Swift Swim, Life Orb
 	// Gender can be M, F, N, or left as an empty string
-	// each slot in moves needs to be a string (the move name, capitalized properly ex: Hydro Pump), or an array of strings (also move names)
+	// each slot in moves needs to be a string (the move name, captialized properly ex: Hydro Pump), or an array of strings (also move names)
 	// signatureMove also needs to be capitalized properly ex: Scripting
 	// You can skip Evs (defaults to 84 all) and/or Ivs (defaults to 31 all), or just skip part of the Evs (skipped evs are 0) and/or Ivs (skipped Ivs are 31)
 	// You can also skip shiny, defaults to false. Level can be skipped (defaults to 100).
@@ -39,7 +39,6 @@ export const ssbSets: SSBSets = {
 	'1/2 Boom': {
 		species: 'Electrode-Hisui', ability: 'Protean', item: 'Choice Specs', gender: '', level: 50,
 		moves: ['Chloroblast', 'Mind Blown', 'Steel Beam'],
-
 		signatureMove: 'Light of Ruin',
 		evs: { hp: 4, spa: 252, spe: 252 }, ivs: { atk: 0 }, nature: 'Modest', teraType: 'Fairy',
 	},
@@ -60,15 +59,12 @@ export const ssbSets: SSBSets = {
 		moves: ['Raging Fury', 'Rage Fist', 'Rage Powder'],
 		signatureMove: 'Eruption',
 		evs: { hp: 252, atk: 252, def: 4, spa: 156 }, ivs: { spe: 0 }, nature: 'Rash', teraType: 'Ghost',
-
 	},
 	'Banned': {
 		species: 'Incineroar', ability: 'Blaze', item: 'Sitrus Berry', gender: '', level: 50,
 		moves: ['Fire Punch', 'Bite', 'Growl'],
-
 		signatureMove: 'Quick Attack',
 		evs: { hp: 36, atk: 212, def: 132, spd: 52, spe: 76 }, nature: 'Adamant', teraType: 'Fire',
-
 	},
 	'Big Boongus': {
 		species: 'Foongus', ability: 'Sturdy', item: 'Berry Juice', gender: '', level: 5,
@@ -80,7 +76,6 @@ export const ssbSets: SSBSets = {
 		species: 'Rotom-Fan', ability: 'Levitate', item: 'Sitrus Berry', gender: '', level: 50,
 		moves: ['10,000,000 Volt Thunderbolt', 'G-Max Wind Rage', 'Oblivion Wing'],
 		signatureMove: 'Max Guard',
-
 		evs: { hp: 244, def: 60, spa: 84, spd: 60, spe: 60 }, nature: 'Modest', teraType: 'Electric',
 	},
 	'Birb': {
@@ -89,12 +84,10 @@ export const ssbSets: SSBSets = {
 		signatureMove: 'Oblivion Wing',
 		evs: { hp: 4, spa: 252, spe: 252 }, nature: 'Timid', teraType: 'Dark',
 	},
-
 	'Boom': {
 		species: 'Regieleki', ability: 'Galvanize', item: 'Choice Band', gender: '', level: 50,
 		moves: ['Explosion', '', ''],
 		signatureMove: '',
-
 		evs: { atk: 252, spe: 252 }, nature: 'Adamant', teraType: 'Electric',
 	},
 	'Bright Powder': {
@@ -103,18 +96,14 @@ export const ssbSets: SSBSets = {
 		signatureMove: 'Ancient Power',
 		evs: { hp: 52, spa: 252, spe: 204 }, ivs: { atk: 0 }, nature: 'Modest', teraType: 'Dragon',
 	},
-
 	'Charm': {
 		species: 'Whimsicott', ability: 'Soul-Heart', item: 'Focus Sash', gender: '', level: 50,
 		moves: ['Charm', 'Tailwind', 'Moonblast'],
-
 		signatureMove: 'Energy Ball',
-
 		evs: { hp: 4, spa: 252, spe: 252 }, ivs: { atk: 0 }, nature: 'Timid', teraType: 'Fairy',
 	},
 	'Chicken': {
 		species: 'Squawkabilly', ability: 'Hustle', item: 'Choice Scarf', gender: '', level: 50,
-
 		moves: ['Brave Bird', 'Parting Shot', 'Tera Blast'],
 		signatureMove: 'Final Gambit',
 		evs: { hp: 212, atk: 252, spe: 44 }, nature: 'Adamant', teraType: 'Ghost',
@@ -124,7 +113,6 @@ export const ssbSets: SSBSets = {
 		moves: ['Outrage', 'Raging Fury', 'Thrash'],
 		signatureMove: 'Petal Dance',
 		evs: { atk: 220, spa: 252, spe: 212 }, nature: 'Naughty', teraType: 'Fire',
-
 	},
 	'Conix vs Elm': {
 		species: 'Overqwil', ability: 'Intimidate', item: 'Bright Powder', gender: '', level: 50,
@@ -137,17 +125,14 @@ export const ssbSets: SSBSets = {
 		moves: ['Sandsear Storm', 'Make It Rain', 'Astral Barrage'],
 		signatureMove: 'Hydro Pump',
 		evs: { hp: 4, spa: 252, spe: 252 }, ivs: { atk: 0 }, nature: 'Modest', teraType: 'Water',
-
 	},
 	'Counts as a Bird': {
 		species: 'Donphan', ability: 'Sturdy', item: 'Weakness Policy', gender: '', level: 50,
 		moves: ['Earthquake', 'Ice Shard', 'Tailwind'],
-
 		signatureMove: 'Protect',
 		evs: { hp: 252, atk: 252, spd: 4 }, nature: 'Adamant', teraType: 'Ice',
 	},
 	'Dead Fish Song': {
-
 		species: 'Dondozo', ability: 'Arena Trap', item: 'Binding Band', gender: '', level: 55,
 		moves: ['Perish Song', '', ''],
 		signatureMove: '',
@@ -160,18 +145,15 @@ export const ssbSets: SSBSets = {
 		evs: { hp: 244, atk: 4, def: 28, spd: 220, spe: 12 }, nature: 'Careful', teraType: 'Flying',
 	},
 	'Dozo <3': {
-
 		species: 'Tatsugiri', ability: 'Commander', item: 'Love Ball', gender: '', level: 50,
 		moves: ['Revival Blessing', 'Struggle', ''],
 		signatureMove: '',
 		evs: { hp: 252, spe: 244 }, nature: 'Timid', teraType: 'Dragon',
-
 	},
 	'Eat Sleep': {
 		species: 'Snorlax', ability: 'Comatose', item: 'Iapapa Berry', gender: '', level: 50,
 		moves: ['Snore', 'Yawn', 'Bug Bite'],
 		signatureMove: 'Crunch',
-
 		evs: { hp: 252, atk: 44, def: 124, spa: 252, spd: 84 }, ivs: { spe: 0 }, nature: 'Brave', teraType: 'Bug',
 	},
 	'Elm\'s Favorite Child': {
@@ -180,7 +162,6 @@ export const ssbSets: SSBSets = {
 		signatureMove: 'Hydro Steam',
 		evs: { hp: 4, def: 4, spa: 252, spd: 4, spe: 244 }, ivs: { atk: 0 }, nature: 'Modest', teraType: 'Water',
 	},
-
 	'Elm\'s Surprise': {
 		species: 'Delphox', ability: 'Blaze', item: 'Shed Shell', gender: '', level: 50,
 		moves: ['Fire Spin', 'Encore', 'Heat Wave'],
@@ -193,11 +174,9 @@ export const ssbSets: SSBSets = {
 		signatureMove: 'Detect',
 		evs: { hp: 252, atk: 252, def: 252, spa: 252, spd: 252, spe: 252 }, nature: 'Adamant', teraType: 'Steel',
 	},
-
 	'Glare': {
 		species: 'Chewtle', ability: 'Prankster',
 		item: ['Draco Plate', 'Dread Plate', 'Earth Plate', 'Fist Plate', 'Flame Plate', 'Icicle Plate', 'Insect Plate', 'Iron Plate', 'Meadow Plate', 'Mind Plate', 'Pixie Plate', 'Sky Plate', 'Splash Plate', 'Spooky Plate', 'Stone Plate', 'Toxic Plate', 'Zap Plate'],
-
 		gender: '', level: 75,
 		moves: ['Glare', 'Judgment', 'Coaching'],
 		signatureMove: 'Fake Out',
@@ -206,7 +185,6 @@ export const ssbSets: SSBSets = {
 	'Happy': {
 		species: 'Haxorus', ability: 'Victory Star', item: 'Loaded Dice', gender: '', level: 50,
 		moves: ['Scale Shot', 'King\'s Shield', 'Victory Dance'],
-
 		signatureMove: 'Celebrate',
 		evs: { hp: 1, atk: 1, def: 1, spa: 1, spd: 1, spe: 1 }, ivs: { hp: 1, atk: 1, def: 1, spa: 1, spd: 1, spe: 1 }, nature: 'Jolly', teraType: 'Fairy',
 	},
@@ -219,12 +197,10 @@ export const ssbSets: SSBSets = {
 	'Holy Shit Leaves': {
 		species: 'Iron-Leaves', ability: 'Quark Drive', item: 'Choice Scarf', gender: '', level: 50,
 		moves: ['Volt Switch', 'U-turn', 'Flip Turn'],
-
 		signatureMove: 'Parting Shot',
 		evs: { hp: 4, atk: 252, spa: 252, spe: 252 }, nature: 'Quirky', teraType: 'Grass',
 	},
 	'Holy Shit Shocks': {
-
 		species: 'Magneton', ability: 'Teravolt', item: 'Shock Drive', gender: '', level: 57,
 		moves: ['Shock Wave', 'Psyshock', 'Venoshock'],
 		signatureMove: 'Freeze Shock',
@@ -233,7 +209,6 @@ export const ssbSets: SSBSets = {
 	'Hungry': {
 		species: 'Druddigon', ability: 'Gluttony', item: 'Figy Berry', gender: '', level: 50,
 		moves: ['Belly Drum', 'Dragon Claw', 'Iron Head'],
-
 		signatureMove: 'Protect',
 		evs: { hp: 252, atk: 252, def: 4, spd: 4 }, nature: 'Adamant', teraType: 'Steel',
 	},
@@ -246,12 +221,10 @@ export const ssbSets: SSBSets = {
 	'Knife': {
 		species: 'Dracozolt', ability: 'Sharpness', item: 'Life Orb', gender: '', level: 50,
 		moves: ['Behemoth Blade', 'Sacred Sword', 'Ceaseless Edge'],
-
 		signatureMove: 'Protect',
 		evs: { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0 }, nature: 'Quirky', teraType: 'Steel',
 	},
 	'Mowsus': {
-
 		species: 'Rotom-Mow', ability: 'Imposter', item: 'Ability Shield', gender: '', level: 51,
 		moves: ['Transform', '', ''],
 		signatureMove: '',
@@ -261,7 +234,6 @@ export const ssbSets: SSBSets = {
 		species: 'Zacian', ability: 'Intrepid Sword', item: 'Rusted Sword', gender: '', level: 34,
 		moves: ['Behemoth Blade', 'Sacred Sword', 'Quick Attack'],
 		signatureMove: 'Protect',
-
 		evs: { hp: 108, atk: 196, spe: 204 }, nature: 'Adamant', teraType: 'Fairy',
 	},
 	'Pet': {
@@ -270,12 +242,10 @@ export const ssbSets: SSBSets = {
 		signatureMove: 'G-Max Cuddle',
 		evs: { hp: 252, def: 4, spd: 252 }, nature: 'Impish', teraType: 'Water',
 	},
-
 	'PikaBoom': {
 		species: 'Pachirisu', ability: 'Lightning Rod', item: 'Focus Sash', gender: '', level: 50,
 		moves: ['Explosion', 'Follow Me', 'Nuzzle'],
 		signatureMove: 'Protect',
-
 		evs: { hp: 4, atk: 252, spe: 252 }, nature: 'Jolly', teraType: 'Normal',
 	},
 	'Pincurchin is Bad': {
@@ -284,7 +254,6 @@ export const ssbSets: SSBSets = {
 		signatureMove: 'Protect',
 		evs: { hp: 252, spa: 252 }, ivs: { spe: 0 }, nature: 'Quiet', teraType: 'Water',
 	},
-
 	'Roaring Mid': {
 		species: 'Roaring-Moon', ability: 'Fairy Aura', item: 'Choice Specs', gender: '', level: 50,
 		moves: ['Misty Explosion', 'Draco Meteor', 'Dark Pulse'],
@@ -293,22 +262,18 @@ export const ssbSets: SSBSets = {
 	},
 	'S+': {
 		species: 'Dragonite', ability: 'Sword of Ruin', item: 'Choice Band', gender: '', level: 50,
-
 		moves: ['Extreme Speed', 'Stomping Tantrum', 'Outrage'],
 		signatureMove: 'Aerial Ace',
 		evs: { hp: 1, def: 2, spd: 3, spe: 4 }, ivs: { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0 }, nature: 'Adamant', teraType: 'Normal',
 	},
-
 	'Scary': {
 		species: 'Gyarados', ability: 'Intimidate', item: 'Sitrus Berry', gender: '', level: 50,
 		moves: ['Hydro Pump', 'Taunt', 'Thunder Wave'],
 		signatureMove: 'Protect',
-
 		evs: { hp: 204, def: 252, spa: 252, spd: 4, spe: 132 }, ivs: { atk: 0 }, nature: 'Modest', teraType: 'Grass',
 	},
 	'Shoes': {
 		species: 'Tangela', ability: 'Dazzling', item: 'Heavy-Duty Boots', gender: '', level: 63,
-
 		moves: ['Trop Kick', 'Triple Axel', 'Thunderous Kick'],
 		signatureMove: 'Detect',
 		evs: { hp: 244, atk: 252, def: 4, spd: 4, spe: 4 }, nature: 'Adamant', teraType: 'Fighting',
@@ -318,7 +283,6 @@ export const ssbSets: SSBSets = {
 		moves: ['Hydro Steam', 'Trick Room', 'Yawn'],
 		signatureMove: 'Shed Tail',
 		evs: { hp: 252, def: 20, spd: 236 }, ivs: { atk: 0, spe: 4 }, nature: 'Sassy', teraType: 'Water',
-
 	},
 	'SlowSand': {
 		species: 'Slowpoke', ability: 'Sand Stream', item: 'Eviolite', gender: '', level: 50,
@@ -327,7 +291,6 @@ export const ssbSets: SSBSets = {
 		evs: { hp: 252, def: 20, spd: 236 }, ivs: { spe: 8 }, nature: 'Sassy', teraType: 'Water',
 	},
 	'SlowSnow': {
-
 		species: 'Slowpoke', ability: 'Snow Warning', item: 'Eviolite', gender: '', level: 50,
 		moves: ['Hydro Steam', 'Trick Room', 'Yawn'],
 		signatureMove: 'Aurora Veil',
@@ -336,7 +299,6 @@ export const ssbSets: SSBSets = {
 	'SlowSun': {
 		species: 'Slowpoke', ability: 'Drought', item: 'Eviolite', gender: '', level: 50,
 		moves: ['Hydro Steam', 'Trick Room', 'Yawn'],
-
 		signatureMove: 'Will-O-Wisp',
 		evs: { hp: 252, def: 20, spd: 236 }, ivs: { atk: 0, spe: 6 }, nature: 'Sassy', teraType: 'Water',
 	},
@@ -349,14 +311,11 @@ export const ssbSets: SSBSets = {
 	'Smol': {
 		species: 'Cottonee', ability: 'Prankster', item: 'Focus Sash', gender: '', level: 50,
 		moves: ['Tailwind', 'Nature\'s Madness', 'Encore'],
-
 		signatureMove: 'Protect',
 		evs: { hp: 252, spd: 4, spe: 252 }, ivs: { atk: 0 }, nature: 'Timid', teraType: 'Grass',
 	},
 	'Snomnom': {
-
 		species: 'Snom', ability: 'Wonder Guard', item: 'Focus Sash', gender: '', level: 50,
-
 		moves: ['Revival Blessing', 'G-Max Vine Lash', 'G-Max Tartness'],
 		signatureMove: 'Guardian of Alola',
 		evs: { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0 }, ivs: { hp: 0, def: 0, spa: 0, spd: 0, spe: 2 }, nature: 'Quirky', teraType: 'Ice',
@@ -364,7 +323,6 @@ export const ssbSets: SSBSets = {
 	'Spin': {
 		species: 'Yamper', ability: 'Simple', item: 'Eviolite', gender: '', level: 50,
 		moves: ['Extreme Evoboost', 'Volt Tackle', 'Rapid Spin'],
-
 		signatureMove: 'Spin Out',
 		evs: { hp: 4, atk: 252, spe: 252 }, nature: 'Jolly', teraType: 'Electric',
 	},
@@ -377,44 +335,30 @@ export const ssbSets: SSBSets = {
 	'Tall Troll': {
 		species: 'Exeggutor-Alola', ability: 'Damp', item: 'Mirror Herb', gender: '', level: 50,
 		moves: ['Guillotine', 'Shell Side Arm', 'Toxic'],
-
 		signatureMove: 'Obstruct',
 		evs: { hp: 252, atk: 132, def: 108, spa: 88, spd: 52, spe: 196 }, nature: 'Brave', teraType: 'Poison',
 	},
 	'This is Fine': {
-
 		species: 'Rowlet', ability: 'Flash Fire', item: 'Charcoal', gender: '', level: 80,
-
 		moves: ['Eruption', 'Overheat', 'Heat Wave'],
-
 		signatureMove: 'Protect',
-
 		evs: { spa: 252, spe: 252 }, ivs: { atk: 0 }, nature: 'Modest', teraType: 'Fire',
 	},
 	'Thumbs': {
-
 		species: 'Hawlucha', ability: 'Moxie', item: 'Life Orb', gender: '', level: 50,
-
 		moves: ['Close Combat', 'Dragon Ascent', 'Victory Dance'],
-
 		signatureMove: 'Detect',
 		evs: { hp: 4, atk: 252, spe: 252 }, nature: 'Jolly', teraType: 'Flying',
 	},
-
 	'Ting_Lu': {
-
 		species: 'Wo-Chien', ability: 'Vessel of Ruin', item: 'Assault Vest', gender: '', level: 50,
 		moves: ['Ruination', 'Fissure', 'Stomping Tantrum'],
-
 		signatureMove: 'Heavy Slam',
-
 		evs: { hp: 172, atk: 12, def: 68, spd: 252, spe: 4 }, nature: 'Impish', teraType: 'Ground',
-
 	},
 	'Troll': {
 		species: 'Exeggutor', ability: 'Serene Grace', item: 'Bright Powder', gender: '', level: 49,
 		moves: ['Rock Slide', 'Ancient Power', 'Tri Attack'],
-
 		signatureMove: 'Blizzard',
 		evs: { hp: 80, def: 8, spa: 13, spd: 5 }, ivs: { hp: 6, atk: 9, def: 4, spa: 2, spd: 0, spe: 21 }, nature: 'Hardy', teraType: 'Ice',
 	},
@@ -428,47 +372,29 @@ export const ssbSets: SSBSets = {
 		species: 'Bronzong', ability: 'Air Lock', item: 'Leftovers', gender: '', level: 50,
 		moves: ['Trick Room', 'Protect', 'Iron Defense'],
 		signatureMove: 'Body Press',
-
 		evs: { hp: 252, def: 252, spd: 4 }, ivs: { atk: 0, spe: 0 }, nature: 'Relaxed', teraType: 'Normal',
-
 	},
-
 	'Wo_Chien': {
 		species: 'Ting-Lu', ability: 'Tablets of Ruin', item: 'Leftovers', gender: '', level: 50,
-
 		moves: ['Giga Drain', 'Leech Seed', 'Pollen Puff'],
 		signatureMove: 'Protect',
-
 		evs: { hp: 252, def: 236, spa: 20 }, ivs: { atk: 0 }, nature: 'Bold', teraType: 'Grass',
-
 	},
-
 	'Y Tho?': {
 		species: 'Porygon', ability: 'Insomnia', item: 'Eviolite', gender: '', level: 50,
-
 		moves: ['Glare', 'Trick Room', 'Recover'],
-
 		signatureMove: 'Tri Attack',
 		evs: { hp: 252, def: 252, spd: 252 }, ivs: { atk: 0, spe: 0 }, nature: 'Sassy', teraType: 'Ghost',
-
 	},
-
 	'You\'ve Been Deceived': {
 		species: 'Dondozo', ability: 'Illusion', item: 'Life Orb', gender: '', level: 50,
-
 		moves: ['Shadow Ball', 'Surf', 'Explosion'],
-
 		signatureMove: 'Haze',
-
 		evs: { spa: 116, spe: 252 }, nature: 'Serious', teraType: 'Normal',
 	},
-
 	'Zooom': {
-
 		species: 'Sandy-Shocks', ability: 'Speed Boost', item: 'Life Orb', gender: '', level: 50,
-
 		moves: ['Earth Power', 'Thunderbolt', 'Tera Blast'],
-
 		signatureMove: 'Protect',
 		evs: { hp: 4, spa: 252, spe: 252 }, ivs: { atk: 0 }, nature: 'Timid', teraType: 'Flying',
 	},
@@ -486,16 +412,8 @@ export const ssbSets: SSBSets = {
 	},
 };
 
-const afdSSBSets: SSBSets = {
-	'Fox': {
-		species: 'Fennekin', ability: 'No Ability', item: '', gender: '',
-		moves: [],
-		signatureMove: 'Super Metronome',
-	},
-};
-
 export class RandomStaffBrosTeams extends RandomTeams {
-	randomStaffBrosTeam(options: { inBattle?: boolean } = {}) {
+	RandomStaffBrosTeam(options: { inBattle?: boolean } = {}) {
 		this.enforceNoDirectCustomBanlistChanges();
 
 		const team: PokemonSet[] = [];
@@ -506,7 +424,7 @@ export class RandomStaffBrosTeams extends RandomTeams {
 		const monotype = this.forceMonotype || (ruleTable.has('sametypeclause') ?
 			this.sample(this.dex.types.names().filter(x => x !== 'Stellar')) : false);
 
-		let pool = meme ? Object.keys(afdSSBSets) : Object.keys(ssbSets);
+		let pool = Object.keys(ssbSets);
 		if (debug.length) {
 			while (debug.length < 6) {
 				const staff = this.sampleNoReplace(pool);
@@ -527,7 +445,7 @@ export class RandomStaffBrosTeams extends RandomTeams {
 			if (depth >= 200) throw new Error(`Infinite loop in Super Staff Bros team generation.`);
 			depth++;
 			const name = meme ? this.sample(pool) : afd ? 'April' : this.sampleNoReplace(pool);
-			const ssbSet: SSBSet = meme ? this.dex.deepClone(afdSSBSets[name]) : this.dex.deepClone(ssbSets[name]);
+			const ssbSet: SSBSet = this.dex.deepClone(ssbSets[name]);
 			if (ssbSet.skip) continue;
 
 			// Enforce typing limits
@@ -597,20 +515,6 @@ export class RandomStaffBrosTeams extends RandomTeams {
 			};
 
 			// Any set specific tweaks occur here.
-			if (set.name === "Felucia") {
-				const cmIndex = set.moves.indexOf("Calm Mind");
-				if (cmIndex >= 0 && set.moves.includes("Night Shade")) {
-					set.moves[cmIndex] = this.sample(["Thief", "Toxic"]);
-				}
-			}
-			if (set.name === "Frostyicelad" && set.shiny) {
-				const moveIndex = Math.max(set.moves.indexOf('Dire Claw'),
-					set.moves.indexOf('Meteor Mash'), set.moves.indexOf('Bitter Malice'));
-				if (moveIndex >= 0) {
-					set.moves[moveIndex] = 'Fishious Rend';
-					teraType = 'Water';
-				}
-			}
 
 			if (teraType) set.teraType = teraType;
 
