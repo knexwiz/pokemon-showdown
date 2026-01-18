@@ -9,7 +9,6 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	servine: {
 		tier: "NFE",
 	},
-<<<<<<< HEAD
 	venusaur: {
 		tier: "UU",
 	},
@@ -756,11 +755,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	},
 	froslassmega: {
 		tier: "UU",
-=======
 	serperior: {
 		tier: "NU",
-		doublesTier: "DUU",
->>>>>>> 861216037e745fcdd3223f99dd1c3aa9281041b1
+		doublesTier: "DUU",\
 	},
 	rotom: {
 		tier: "OU",
@@ -1262,7 +1259,6 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "PU",
 		doublesTier: "DUU",
 	},
-<<<<<<< HEAD
 	stunfiskgalar: {
 		tier: "UU",
 	},
@@ -1306,9 +1302,8 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	genesectchill: {
 	},
 	chespin: {
-=======
+	},
 	mienfoo: {
->>>>>>> 861216037e745fcdd3223f99dd1c3aa9281041b1
 		tier: "LC",
 	},
 	mienshao: {
@@ -1392,7 +1387,6 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "UU",
 		doublesTier: "DUU",
 	},
-<<<<<<< HEAD
 	vivillonfancy: {
 		tier: "UU",
 	},
@@ -1605,10 +1599,8 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	noivern: {
 		tier: "UU",
 	},
-	xerneas: {
-=======
+	xerneas: {},
 	tornadustherian: {
->>>>>>> 861216037e745fcdd3223f99dd1c3aa9281041b1
 		tier: "Uber",
 		doublesTier: "DUU",
 	},
@@ -1644,7 +1636,6 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "OU",
 		doublesTier: "DOU",
 	},
-<<<<<<< HEAD
 	crabrawler: {
 		tier: "LC",
 	},
@@ -1671,17 +1662,15 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	},
 	drampa: {
 		tier: "UU",
-=======
+	},	
 	kyuremwhite: {
 		tier: "Uber",
 		doublesTier: "DUber",
->>>>>>> 861216037e745fcdd3223f99dd1c3aa9281041b1
 	},
 	keldeo: {
 		tier: "OU",
 		doublesTier: "DUU",
 	},
-<<<<<<< HEAD
 	mimikyu: {
 		tier: "OU",
 	},
@@ -1743,11 +1732,10 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	},
 	falinks: {
 		tier: "UU",
-=======
+	},
 	keldeoresolute: {
 		tier: "OU",
 		doublesTier: "DUU",
->>>>>>> 861216037e745fcdd3223f99dd1c3aa9281041b1
 	},
 	meloetta: {
 		tier: "UU",

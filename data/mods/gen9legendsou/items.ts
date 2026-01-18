@@ -7,9 +7,6 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
-<<<<<<< HEAD
-	zygardite: {
-=======
 	dragongem: {
 		inherit: true,
 		isNonstandard: null,
@@ -31,7 +28,6 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		isNonstandard: null,
 	},
 	flyinggem: {
->>>>>>> 861216037e745fcdd3223f99dd1c3aa9281041b1
 		inherit: true,
 		isNonstandard: null,
 	},
