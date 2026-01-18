@@ -19,10 +19,9 @@ The column value will be ignored for repeat sections.
 
 export const Formats: import('../sim/dex-formats').FormatList = [
 
-<<<<<<< HEAD
 	{
       section: "FDL Custom",
-   },
+    },
 	{
 		name: "[Gen 9] FDL GEN V Natdex",
 		mod: 'gen9fdlnatdex',
@@ -45,16 +44,10 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		onBegin() {
 			this.add('message', 'FDL MEME CUP WIP');
 		},
+		onSwitchIn(pokemon) {
+			this.add('message', `${pokemon.set}`);
+		}
 	},
-=======
-	// FDL Formats
-	///////////////////////////////////////////////////////////////////
-	{
-		section: "FDL Custom",
-	},
-
-
->>>>>>> 861216037e745fcdd3223f99dd1c3aa9281041b1
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
 

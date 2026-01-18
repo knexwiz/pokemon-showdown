@@ -65,7 +65,6 @@ export const ssbSets: SSBSets = {
 	'Banned': {
 		species: 'Incineroar', ability: 'Blaze', item: 'Sitrus Berry', gender: '', level: 50,
 		moves: ['Fire Punch', 'Bite', 'Growl'],
-
 		signatureMove: 'Quick Attack',
 		evs: { hp: 36, atk: 212, def: 132, spd: 52, spe: 76 }, nature: 'Adamant', teraType: 'Fire',
 
